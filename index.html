@@ -5,16 +5,39 @@
     <title>HTML&CSS</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
+
+    <style>
+        body {
+            font-family: "Gill Sans", sans-serif;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Playfair Display";
+            letter-spacing: 5px;
+            color: rgb(197, 17, 101);
+        }
+    </style>
+
 </head>
 
 <body style="margin: 0; padding: 0;">
 
     <!-- Header -->
-    <header style="background-color: aliceblue; position: sticky; top: 0; display: flex; flex-direction: row; justify-content: space-between;">
+    <header
+        style="background-color: aliceblue; position: sticky; top: 0; display: flex; flex-direction: row; justify-content: space-between;">
         <a href="#pavasaris">Šeit ir virsraksts, kurš paliek galvenes daļā.</a>
         <div>
-            <a href="#vasara">Vasara</a>
-            <a href="#plava">Uzdevumi</a>
+            <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+                <a href="#vasara">Vasara</a>
+                <a href="#plava">Uzdevumi</a>
+                <!-- Right-sided navbar links. Hide them on small screens -->
+            </div>
+        </div>
         </div>
     </header>
 
